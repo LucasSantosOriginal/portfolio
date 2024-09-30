@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem; /* Preenchimento vertical */
+    position: fixed; /* Fixa a Navbar no topo */
+    top: 0; /* Alinha no topo */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Garante que a Navbar fique acima de outros elementos */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Mantém espaço entre logo e menu */
+    align-items: center;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo dentro da navbar */
+    width: 100%; /* Garante que o container também preencha 100% */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item a:hover {
+    color: #1e90ff; /* Cor ao passar o mouse */
+  }
+
+  #about, #projects, #contact {
+    margin-top: 80px; /* Ajuste conforme necessário */
+}

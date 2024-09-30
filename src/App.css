@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-buttons {
+  display: flex;           /* Usar flexbox para alinhar os botões */
+  justify-content: center; /* Centraliza os botões horizontalmente */
+  gap: 20px;              /* Adiciona espaçamento entre os botões */
+  margin-top: 20px;       /* Adiciona um pouco de espaço acima dos botões */
+}
+
+.portfolio-button {
+  padding: 10px 20px;     /* Adiciona preenchimento ao botão */
+  background-color: #007bff; /* Cor de fundo */
+  color: white;           /* Cor do texto */
+  text-decoration: none;   /* Remove o sublinhado */
+  border-radius: 5px;     /* Borda arredondada */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.portfolio-button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
