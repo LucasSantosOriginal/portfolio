@@ -1,4 +1,8 @@
 /* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
 
 .app-container {
   height: 100vh; /* Altura total da viewport */
@@ -11,19 +15,6 @@
   margin-top: 20px; /* Espaço entre o título e os botões */
 }
 
-.button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
 
 /* Para o conteúdo das páginas de portfólio */
 .page-content {
@@ -36,18 +27,4 @@
   padding: 20px;
 }
 
-.back-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-.back-button:hover {
-  background-color: #0b345f;
-}

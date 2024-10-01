@@ -1,0 +1,14 @@
+@keyframes breathe {
+    0%, 100% {
+      background-color: #a549e2; /* Cor inicial */
+    }
+    50% {
+      background-color: #4EA1AA; /* Cor intermediária */
+    }
+  }
+  
+  .home-container {
+    animation: breathe 10s ease-in-out infinite; /* Altera a duração e a suavização como desejar */
+    margin: 0; /* Remove margens padrão */
+    height: 100vh; /* Para ocupar a tela inteira */
+  }

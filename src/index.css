@@ -2,7 +2,8 @@ body {
   margin: 0; /* Remove margens padrão */
   padding: 0; /* Remove preenchimento padrão */
   box-sizing: border-box; /* Para que o padding e as bordas sejam incluídos nas dimensões */
-  background: linear-gradient(to bottom, #4682B4, #87CEFA); /* Degradê do azul escuro para o azul claro */
+  /* background: linear-gradient(to bottom, #4682B4, #87CEFA); Degradê do azul escuro para o azul claro */
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -19,18 +20,36 @@ body {
   justify-content: center; /* Centraliza verticalmente */
 }
 
+
 .back-button {
+  font-size: 30px;
   position: absolute; /* Permite que o botão seja posicionado no canto superior esquerdo */
   top: 20px; /* Distância do topo */
   left: 20px; /* Distância da esquerda */
-  background-color: #007bff; /* Cor do botão */
-  color: white; /* Cor do texto */
+  color: #2a5d63; /* Cor do texto */
   border: none; /* Remover bordas */
-  padding: 10px 15px; /* Espaçamento interno do botão */
+  padding: 1px; /* Espaçamento interno do botão */
   border-radius: 5px; /* Bordas arredondadas */
   cursor: pointer; /* Mudar o cursor ao passar o mouse */
+  text-decoration: none; /* Remove sublinhado do link */
+}
+.back-button:hover {
+  color: whitesmoke;
 }
 
-.back-button:hover {
-  background-color: #0056b3; /* Cor ao passar o mouse */
+.back-button-programming {
+  font-size: 30px;
+  position: absolute; /* Permite que o botão seja posicionado no canto superior esquerdo */
+  top: 20px; /* Distância do topo */
+  left: 20px; /* Distância da esquerda */
+  color: #5f2a81; /* Cor do texto */
+  border: none; /* Remover bordas */
+  padding: 1px; /* Espaçamento interno do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Mudar o cursor ao passar o mouse */
+  text-decoration: none; /* Remove sublinhado do link */
+}
+
+.back-button-programming:hover {
+  color: whitesmoke;
 }

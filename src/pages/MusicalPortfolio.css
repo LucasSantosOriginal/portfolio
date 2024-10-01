@@ -1,4 +1,6 @@
-.page-content {
+
+
+.page-content-Musical {
     display: flex;
     flex-direction: column; /* Organiza os elementos em coluna */
     align-items: center; /* Centraliza horizontalmente */
@@ -6,24 +8,10 @@
     height: 100vh; /* Ocupa toda a altura da tela */
     text-align: center; /* Centraliza o texto */
     position: relative; /* Para permitir o posicionamento absoluto do botão */
-    background-color: #8a0707; /* Cor de fundo clara */
+    background-color: #4EA1AA;
+  }
+  
 
-  }
   
-  .back-button {
-    position: absolute; /* Permite que o botão seja posicionado no canto superior esquerdo */
-    top: 20px; /* Distância do topo */
-    left: 20px; /* Distância da esquerda */
-    background-color: #007bff; /* Cor do botão */
-    color: white; /* Cor do texto */
-    border: none; /* Remover bordas */
-    padding: 10px 15px; /* Espaçamento interno do botão */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Mudar o cursor ao passar o mouse */
-    text-decoration: none; /* Remove sublinhado do link */
-  }
-  
-  .back-button:hover {
-    background-color: #0056b3; /* Cor ao passar o mouse */
-  }
+
   

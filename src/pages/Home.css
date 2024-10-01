@@ -5,9 +5,13 @@
     justify-content: center; /* Centraliza verticalmente */
     height: 100vh; /* Ocupa toda a altura da tela */
     text-align: center; /* Centraliza o texto */
-    background-color: #bdbdbd9c; /* Cor de fundo clara */
+    /* background-color: #bdbdbd9c; Cor de fundo clara */
+    position: relative;
+
+    z-index: 1; /* Para garantir que o conteúdo esteja acima das partículas */
+
   }
-  
+ 
   .button-container {
     display: flex; /* Usa flexbox para organizar os botões */
     gap: 20px; /* Espaçamento entre os botões */
@@ -15,16 +19,19 @@
   }
   
   .button {
-    padding: 10px 20px; /* Estilização dos botões */
-    background-color: #007bff; /* Cor de fundo dos botões */
-    color: white; /* Cor do texto */
-    border: none; /* Remove bordas padrão */
-    border-radius: 5px; /* Cantos arredondados */
-    text-decoration: none; /* Remove sublinhado do link */
-    transition: background-color 0.3s; /* Efeito suave na cor de fundo ao passar o mouse */
+    padding: 10px 20px;
+    background-color: #0a0d0f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
   }
   
   .button:hover {
     background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    transform: translateY(-5px); /* Levanta o botão levemente */
+    box-shadow: 0 36px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
   }
   
