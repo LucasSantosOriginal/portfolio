@@ -2,7 +2,11 @@ body {
   margin: 0; /* Remove margens padrão */
   padding: 0; /* Remove preenchimento padrão */
   box-sizing: border-box; /* Para que o padding e as bordas sejam incluídos nas dimensões */
+  background: linear-gradient(to bottom, #4682B4, #87CEFA); /* Degradê do azul escuro para o azul claro */
+
 }
+
+
 
 /* Página de Portfólio */
 .page-content {

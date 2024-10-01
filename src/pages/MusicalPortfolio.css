@@ -6,6 +6,8 @@
     height: 100vh; /* Ocupa toda a altura da tela */
     text-align: center; /* Centraliza o texto */
     position: relative; /* Para permitir o posicionamento absoluto do botão */
+    background-color: #8a0707; /* Cor de fundo clara */
+
   }
   
   .back-button {

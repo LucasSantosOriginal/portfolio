@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/', // Adicione esta linha
+  base: '/portfolio/', // Base correta para GitHub Pages
 });

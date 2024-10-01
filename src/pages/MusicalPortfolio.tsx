@@ -6,7 +6,7 @@ const MusicalPortfolio: React.FC = () => {
   return (
     <div className="page-content">
       <Link to="/" className="back-button">Voltar</Link>
-      <h1>Portfólio Musical</h1>
+      <h1>Produtor Musical</h1>
       {/* Adicione aqui o conteúdo do portfólio musical */}
     </div>
   );

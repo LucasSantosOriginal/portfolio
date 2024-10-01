@@ -6,7 +6,7 @@ const ProgrammingPortfolio: React.FC = () => {
   return (
     <div className="page-content">
       <Link to="/" className="back-button">Voltar</Link>
-      <h1>Portfólio Programador</h1>
+      <h1>Desenvolvedor & Cyber</h1>
       {/* Adicione aqui o conteúdo do portfólio de programação */}
     </div>
   );
