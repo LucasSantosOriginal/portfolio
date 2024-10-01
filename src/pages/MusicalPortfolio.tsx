@@ -7,7 +7,7 @@ import { FaArrowLeft  } from 'react-icons/fa';
 const MusicalPortfolio: React.FC = () => {
   return (
     <div className="page-content-Musical">
-      <Link to="/" className="back-button"><FaArrowLeft /> </Link>
+      <Link to="/portfolio/" className="back-button"><FaArrowLeft /> </Link>
       <h1>Produtor Musical</h1>
       {/* Adicione aqui o conteúdo do portfólio musical */}
     </div>
