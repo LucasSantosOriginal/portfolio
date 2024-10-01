@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './MusicalPortfolio.css'; // Importe o CSS para estilização
 
 const MusicalPortfolio: React.FC = () => {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h2>Portfólio Musical</h2>
-      <p>Aqui você pode apresentar seu portfólio musical, com informações sobre suas músicas e projetos.</p>
+    <div className="page-content">
+      <Link to="/" className="back-button">Voltar</Link>
+      <h1>Portfólio Musical</h1>
+      {/* Adicione aqui o conteúdo do portfólio musical */}
     </div>
   );
 };

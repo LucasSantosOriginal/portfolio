@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './ProgrammingPortfolio.css'; // Importe o CSS para estilização
 
 const ProgrammingPortfolio: React.FC = () => {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h2>Portfólio de Programador</h2>
-      <p>Aqui você pode apresentar seus projetos de programação, com informações sobre suas habilidades e trabalhos.</p>
+    <div className="page-content">
+      <Link to="/" className="back-button">Voltar</Link>
+      <h1>Portfólio Programador</h1>
+      {/* Adicione aqui o conteúdo do portfólio de programação */}
     </div>
   );
 };

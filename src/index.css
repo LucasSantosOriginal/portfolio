@@ -1,68 +1,32 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  box-sizing: border-box; /* Para que o padding e as bordas sejam incluídos nas dimensões */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Página de Portfólio */
+.page-content {
+  position: relative; /* Para permitir o posicionamento absoluto do botão */
+  padding: 20px; /* Adicione um espaçamento se necessário */
+  text-align: center; /* Centraliza todos os textos */
+  min-height: 100vh; /* Garante que a página ocupe pelo menos a altura total da tela */
+  display: flex; /* Usar flexbox para centralizar */
+  flex-direction: column; /* Alinha os itens em coluna */
+  justify-content: center; /* Centraliza verticalmente */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.back-button {
+  position: absolute; /* Permite que o botão seja posicionado no canto superior esquerdo */
+  top: 20px; /* Distância do topo */
+  left: 20px; /* Distância da esquerda */
+  background-color: #007bff; /* Cor do botão */
+  color: white; /* Cor do texto */
+  border: none; /* Remover bordas */
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Mudar o cursor ao passar o mouse */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.back-button:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse */
 }
