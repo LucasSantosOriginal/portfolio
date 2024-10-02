@@ -12,3 +12,20 @@
     margin: 0; /* Remove margens padrão */
     height: 100vh; /* Para ocupar a tela inteira */
   }
+
+  @keyframes breathe-2 {
+    0%, 100% {
+      color: #111f20;
+    }
+    0% { 
+      color: #a549e2;
+    }
+  }
+
+
+  .home-container p {
+
+    animation: breathe-2 60s ease-out infinite;
+
+  }
+

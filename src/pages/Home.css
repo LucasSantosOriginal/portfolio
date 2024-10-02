@@ -7,9 +7,19 @@
     text-align: center; /* Centraliza o texto */
     /* background-color: #bdbdbd9c; Cor de fundo clara */
     position: relative;
-
     z-index: 1; /* Para garantir que o conteúdo esteja acima das partículas */
-
+  }
+  .home-container h1 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    color: black;
+    text-shadow: 
+    -1px -1px 0 rgb(250, 250, 250),  
+    1px -1px 0 rgb(0, 0, 0),  
+    -1px 1px 0 #6838d8,  
+    1px 1px 0 rgba(0, 0, 0, 0.158); /* Contorno preto */
   }
  
   .button-container {
