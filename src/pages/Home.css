@@ -8,6 +8,7 @@
     /* background-color: #bdbdbd9c; Cor de fundo clara */
     position: relative;
     z-index: 1; /* Para garantir que o conteúdo esteja acima das partículas */
+    padding: 20px;
   }
   .home-container h1 {
     font-family: "M PLUS Rounded 1c", sans-serif;
