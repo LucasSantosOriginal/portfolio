@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 .page-content-Programming {
   font-family: "Roboto", sans-serif;
@@ -11,7 +13,7 @@
   background-color: #a549e2;
   width: 100%;
   overflow: hidden;
-  padding: 20px; /* Adicionado para espaçamento */
+  padding: 0px; /* Adicionado para espaçamento */
 }
 
 .dropdown-content {
@@ -43,6 +45,7 @@ padding: 500px;
   word-wrap: break-word; 
   max-width: 90%; 
   margin: 0 auto; 
+
 }
 
 .dropdown-content a {
@@ -72,7 +75,7 @@ h1 {
 .dropdown-header h2 {
   font-family: "Prompt", sans-serif;
   font-size: 40px; /* Aumentando o tamanho do h2 */
-  color: #ffffff;
+  color: #ffffffd2;
   text-shadow: 1px 1px 0px black;
   overflow-wrap: break-word; 
   word-wrap: break-word; 
@@ -80,11 +83,11 @@ h1 {
   margin-bottom: 5px;
   letter-spacing: 4px;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Contorno preto */
-  text-shadow: 0px 0px 10px wheat;
+  text-shadow: 0px 0px 5px rgb(180, 57, 154);
 }
 
 .dropdown-header h2:hover {
-  text-shadow: 0px 0px 10px rgb(100, 96, 96);
+  text-shadow: 0px 0px 50px rgb(100, 96, 96);
 }
 
 .dropdown-content p {
@@ -111,6 +114,56 @@ h1 {
   padding: 50px;
   margin: 0 auto;
 }
+
+
+
+/* PROJETOS  */
+
+.dropdown-content-projetos h1 a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 1px 2px black;
+}
+
+.button-link-projetos {
+  font-family: "Sixtyfour Convergence", sans-serif;
+    font-weight: 400;
+    font-family: "Exo 2", sans-serif;
+  padding: 10px 20px;
+  background-color: #0a0d0f;
+  color: white;
+  border: none;
+  border-radius: 80px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer; /* Cursor de botão */
+  font-size: 1.5rem; /* Tamanho do texto semelhante a um h1 */
+}
+
+.button-link-projetos a {
+  color: inherit; /* Garante que o link herde a cor do botão */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.button-link-projetos {
+  background-color: #5f0163; /* Cor de fundo ao passar o mouse */
+  transform: translateY(-10px); /* Levanta o botão levemente */
+  box-shadow: 0 15px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+.button-link-projetos:hover {
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Responsividade */
 @media (max-width: 768px) {
