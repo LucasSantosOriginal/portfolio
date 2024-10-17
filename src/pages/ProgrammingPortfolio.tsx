@@ -7,132 +7,91 @@ const ProgrammingPortfolio: React.FC = () => {
   const [experienciasOpen, setExperienciasOpen] = useState(false);
   const [habilidadesOpen, setHabilidadesOpen] = useState(false);
   const [certificadosOpen, setCertificadosOpen] = useState(false);
-  const [projetosOpen, setProjetosOpen] = useState(false);
 
   const toggleExperiencias = () => setExperienciasOpen(!experienciasOpen);
   const toggleHabilidades = () => setHabilidadesOpen(!habilidadesOpen);
   const toggleCertificados = () => setCertificadosOpen(!certificadosOpen);
-  const toggleProjetos = () => setProjetosOpen(!projetosOpen);
 
   return (
     <div className="page-content-Programming">
       <Link to="/portfolio/" className="back-button-programming">
-        <FaArrowLeft />
+        <FaArrowLeft /> {/* Seta de voltar */}
       </Link>
       <h1>
         Desenvolvedor & <br />
         Cyber Security
       </h1>
 
-      <div className="dropdown-section">
-        <div
-          className="dropdown-header"
-          onClick={toggleProjetos}
-          aria-expanded={projetosOpen}
-        >
-          <h2>Projetos</h2>
-          {projetosOpen ? <FaChevronUp /> : <FaChevronDown />}
-        </div>
-        {projetosOpen && (
-          <div className="dropdown-content-projetos">
-            {/* <h2>Principais habilidades</h2> */}
-            <button className="button-link-projetos">
-              <a
-                href="https://azevedorar.github.io/lildigs-siteofc/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                SITE LIL DIGS
-              </a>
-            </button>
-          </div>
-        )}
-      </div>
+      {/* Navbar */}
+      {/* <nav className="navbar">
+        <ul>
+          <li>
+            <a href="#experiencias">Experiências</a>
+          </li>
+          <li>
+            <a href="#habilidades">Habilidades</a>
+          </li>
+          <li>
+            <a href="#certificados">Certificados</a>
+          </li>
+        </ul>
+      </nav> */}
 
-      <div className="dropdown-section">
-        <div
-          className="dropdown-header"
-          onClick={toggleExperiencias}
-          aria-expanded={experienciasOpen}
-        >
+      {/* Conteúdo */}
+      <div id="experiencias" className="dropdown-section">
+        <div onClick={toggleExperiencias} className="dropdown-header">
           <h2>Experiências</h2>
           {experienciasOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
         {experienciasOpen && (
           <div className="dropdown-content">
-            <h2> Vivo (Telefonica Brasil)</h2>
-            <h3>
-              Analista em Segurança da Informação Jr
-              <br />
-              2022 - 2024
-            </h3>
-            {/* <p> Descrição da experiência... </p> */}
+            <h3> Vivo (Telefonica Brasil)</h3>
+            <p>Analista em Segurança da Informação Jr - 2022 - 2024</p>
             <h2> Telefonica Educação Digital</h2>
-            <h3>
-              Estagiário Help Desk <br />
-              2021 - 2022
-            </h3>
-            {/* <p> Descrição da experiência... </p> */}
+            <p>Estagiário Help Desk - 2021 - 2022</p>
             <h2> Phooto Brasil</h2>
-            <h3>
-              Estagiário de Suporte Técnico <br /> Jun 2018 - Dez 2018
-            </h3>
-            {/* <p> Descrição da experiência... </p> */}
+            <p>Estagiário de Suporte Técnico - Jun 2018 - Dez 2018</p>
           </div>
         )}
       </div>
 
-      <div className="dropdown-section">
-        <div
-          className="dropdown-header"
-          onClick={toggleHabilidades}
-          aria-expanded={habilidadesOpen}
-        >
+      <div id="habilidades" className="dropdown-section">
+        <div onClick={toggleHabilidades} className="dropdown-header">
           <h2>Habilidades</h2>
           {habilidadesOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
         {habilidadesOpen && (
           <div className="dropdown-content-skills">
-            {/* <h2>Principais habilidades</h2> */}
-            <h3>HTML 5 - intermediário</h3>
-            <h3>CSS - intermediário</h3>
-            <h3>JavaScript - intermediário</h3>
-            <h3>React.js - Básico</h3>
-            <h3>Node.Js - Básico</h3>
-            <h3>Vite - Básico</h3>
-            <h3>TailWind CSS - Básico</h3>
-            <h3>ChatGPT - Avançado</h3>
-            <h3>Adobe Photoshop - Básico</h3>
-            <h3>ServiceNow - Básico</h3>
-            <h3>Jira - Básico</h3>
-            <h3>PowerBI - intermediário</h3>
-            <h3>Python - Básico</h3>
-            <h3>Kali Linux - Básico</h3>
-            <h3>Microsoft Visio - Básico</h3>
-            <h3>Microsoft Sharepoint - intermediário</h3>
-            <h3>OWAS - Básico</h3>
-            <h3>Redmine - Básico</h3>
-            <h3>Office 365 - intermediário</h3>
-            <h3>Typescript - intermediário</h3>
-            <h3>Vite - intermediário</h3>
+            <p>
+              HTML 5 (intermediário) CSS (Intermediário) JavaScript <br />
+              (Intermediário) React.js (Básico) Node.Js <br />
+              (básico) Vite (Básico) TailWind CSS (Básico) ChatGPT (Avançado)
+            </p>
+            <p>
+              Adobe Photoshop (básico) ServiceNow (básico) Jira (Básico) <br />
+              PowerBI (Intermediário) Python (básico) Kali Linux (básico)
+            </p>
+            <p>
+              Microsoft Visio (básico) Microsoft Sharepoint (Intermediário)
+              OWASP (Básico)
+              <br /> Redmine ( Básico) Office 365 (Intermediário)
+            </p>
+
+            {/* Adicione outras habilidades aqui */}
           </div>
         )}
       </div>
 
-      <div className="dropdown-section">
-        <div
-          className="dropdown-header"
-          onClick={toggleCertificados}
-          aria-expanded={certificadosOpen}
-        >
+      <div id="certificados" className="dropdown-section">
+        <div onClick={toggleCertificados} className="dropdown-header">
           <h2>Certificados</h2>
           {certificadosOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
         {certificadosOpen && (
           <div className="dropdown-content">
             <div className="certificados">
-              <h1>Principais Certificações</h1>
-              <h3>
+              {/* <h1>Principais Certificações</h1> */}
+              <p>
                 <a
                   href="https://drive.google.com/file/d/1vNPKgtSErgjUG9MkxhoRzH5lWjj8EWAK/view"
                   target="_blank"
@@ -140,8 +99,8 @@ const ProgrammingPortfolio: React.FC = () => {
                 >
                   API DESIGN (API ACADEMY)
                 </a>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 <a
                   href="https://drive.google.com/file/d/1TywcSviJbOEGCUAyDMNRM7tZg6du5nXr/view"
                   target="_blank"
@@ -149,8 +108,8 @@ const ProgrammingPortfolio: React.FC = () => {
                 >
                   CyberSecurity (FIAP)
                 </a>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 <a
                   href="https://www.sp.senai.br/consulta-certificado?qrcode=00013113/6906163"
                   target="_blank"
@@ -158,8 +117,8 @@ const ProgrammingPortfolio: React.FC = () => {
                 >
                   LGPD (SENAI)
                 </a>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 <a
                   href="https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/66047/e82daadf98311d01f1caa4f6b2ee5654/certificado.png"
                   target="_blank"
@@ -168,8 +127,8 @@ const ProgrammingPortfolio: React.FC = () => {
                   Cloud Fundamentals, Administration and Solution Architect
                   (FIAP)
                 </a>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 <a
                   href="https://www.schoolofnet.com/validar-certificado/?certificate=1ca04bb0-c99b-468b-ab65-e7979ffc65c1"
                   target="_blank"
@@ -177,8 +136,8 @@ const ProgrammingPortfolio: React.FC = () => {
                 >
                   Javascript
                 </a>
-              </h3>
-              <h3>
+              </p>
+              <p>
                 <a
                   href="https://www.schoolofnet.com/validar-certificado/?certificate=00c136f7-6d72-42cc-ae4e-87af291e671a"
                   target="_blank"
@@ -186,7 +145,7 @@ const ProgrammingPortfolio: React.FC = () => {
                 >
                   SASS
                 </a>
-              </h3>
+              </p>
             </div>
           </div>
         )}

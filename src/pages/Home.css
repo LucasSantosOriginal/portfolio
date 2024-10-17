@@ -16,11 +16,11 @@
     font-optical-sizing: auto;
     font-size: 60px;
     color: black;
-    text-shadow: 
+    /* text-shadow: 
     -1px -1px 0 rgb(250, 250, 250),  
     1px -1px 0 rgb(0, 0, 0),  
     -1px 1px 0 #6838d8,  
-    1px 1px 0 rgba(0, 0, 0, 0.158); /* Contorno preto */
+    1px 1px 0 rgba(0, 0, 0, 0.158); */
   }
  
   .button-container {

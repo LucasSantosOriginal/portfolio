@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Home.css"; 
-import '../animation.css';
+import "./Home.css";
+import "../animation.css";
 import { FaDownload } from "react-icons/fa";
 
 const Home: React.FC = () => {
   return (
     <div className="home-container">
       <h1>LUCAS SANTOS </h1>
-      
+
       <div className="button-container">
         <Link to="/portfolio/musical-portfolio" className="button">
           Produtor Musical
@@ -17,7 +17,7 @@ const Home: React.FC = () => {
           Desenvolvedor & Cyber
         </Link>
         <a href="./CV_LUCAS_SANTOS.pdf" download className="button">
-          <FaDownload />
+          <FaDownload /> MEU CV
         </a>
       </div>
 
@@ -29,7 +29,11 @@ const Home: React.FC = () => {
       {/* Rodapé */}
       <footer className="footer">
         <h2>
-          <a href="https://github.com/azevedorar" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/azevedorar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             github.com/azevedorar
           </a>
         </h2>
