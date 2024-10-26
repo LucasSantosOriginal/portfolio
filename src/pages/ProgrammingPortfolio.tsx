@@ -18,8 +18,7 @@ const ProgrammingPortfolio: React.FC = () => {
         <FaArrowLeft /> {/* Seta de voltar */}
       </Link>
       <h1>
-        Desenvolvedor & <br />
-        Cyber Security
+        Developer & Cyber <br />
       </h1>
 
       {/* Navbar */}
@@ -40,24 +39,24 @@ const ProgrammingPortfolio: React.FC = () => {
       {/* Conteúdo */}
       <div id="experiencias" className="dropdown-section">
         <div onClick={toggleExperiencias} className="dropdown-header">
-          <h2>Experiências</h2>
+          <h2>PROFESSIONAL EXPERIENCE</h2>
           {experienciasOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
         {experienciasOpen && (
           <div className="dropdown-content">
             <h3> Vivo (Telefonica Brasil)</h3>
-            <p>Analista em Segurança da Informação Jr - 2022 - 2024</p>
+            <p>Information Security Analyst March 2022 - May 2024</p>
             <h2> Telefonica Educação Digital</h2>
-            <p>Estagiário Help Desk - 2021 - 2022</p>
+            <p>IT Help Desk Intern February 2021 - February 2022</p>
             <h2> Phooto Brasil</h2>
-            <p>Estagiário de Suporte Técnico - Jun 2018 - Dez 2018</p>
+            <p>IT Intern July 2018 - December 2018</p>
           </div>
         )}
       </div>
 
       <div id="habilidades" className="dropdown-section">
         <div onClick={toggleHabilidades} className="dropdown-header">
-          <h2>Habilidades</h2>
+          <h2>SKILLS</h2>
           {habilidadesOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
         {habilidadesOpen && (
@@ -84,7 +83,7 @@ const ProgrammingPortfolio: React.FC = () => {
 
       <div id="certificados" className="dropdown-section">
         <div onClick={toggleCertificados} className="dropdown-header">
-          <h2>Certificados</h2>
+          <h2>CERTIFICATIONS</h2>
           {certificadosOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
         {certificadosOpen && (

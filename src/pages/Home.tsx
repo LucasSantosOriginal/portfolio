@@ -11,10 +11,10 @@ const Home: React.FC = () => {
 
       <div className="button-container">
         <Link to="/portfolio/musical-portfolio" className="button">
-          Produtor Musical
+          Music Producer
         </Link>
         <Link to="/portfolio/programming-portfolio" className="button">
-          Desenvolvedor & Cyber
+          Developer & Cyber
         </Link>
         <a href="./CV_LUCAS_SANTOS.pdf" download className="button">
           <FaDownload /> Portuguese CV

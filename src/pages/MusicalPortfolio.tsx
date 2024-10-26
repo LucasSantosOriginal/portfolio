@@ -9,8 +9,8 @@ const MusicalPortfolio: React.FC = () => {
       <Link to="/portfolio/" className="back-button">
         <FaArrowLeft />{" "}
       </Link>
-      <h1>Produtor Musical</h1>
-      <p>conteúdos em breve...</p>
+      <h1> Music Producer</h1>
+      <p>coming soon...</p>
       {/* Adicione aqui o conteúdo do portfólio musical */}
     </div>
   );
