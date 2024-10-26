@@ -17,7 +17,10 @@ const Home: React.FC = () => {
           Desenvolvedor & Cyber
         </Link>
         <a href="./CV_LUCAS_SANTOS.pdf" download className="button">
-          <FaDownload /> MEU CV
+          <FaDownload /> Portuguese CV
+        </a>
+        <a href="./CV_English_LUCAS_SANTOS.pdf" download className="button">
+          <FaDownload /> English CV
         </a>
       </div>
 
