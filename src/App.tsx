@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import MusicalPortfolio from "./pages/MusicalPortfolio";
 import ProgrammingPortfolio from "./pages/ProgrammingPortfolio";
 import Bio from "./pages/Bio";
+import Projects from "./pages/Projects";
 
 const App: React.FC = () => {
   return (
@@ -11,7 +12,8 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio/Bio" element={<Bio />} />
-        <Route path="/portfolio" element={<Home />} />{" "}
+        <Route path="/portfolio/Projects" element={<Projects />} />
+        <Route path="/portfolio" element={<Home />} />
         {/* Adicione esta linha */}
         <Route
           path="/portfolio/musical-portfolio"

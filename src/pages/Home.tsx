@@ -16,6 +16,9 @@ const Home: React.FC = () => {
         <Link to="/portfolio/programming-portfolio" className="button">
           Experience
         </Link>
+        <Link to="/portfolio/Projects" className="button">
+          Projects
+        </Link>
         <a href="./CV_LUCAS_SANTOS.pdf" download className="button">
           <FaDownload /> Portuguese CV
         </a>
@@ -25,7 +28,7 @@ const Home: React.FC = () => {
       </div>
 
       <p>
-        Welcome to my WORLD! <br />
+        This project was developed with React Vite, CSS, TypeScript! <br />
       </p>
 
       {/* Rodapé */}

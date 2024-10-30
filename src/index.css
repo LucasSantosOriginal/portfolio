@@ -14,13 +14,14 @@ body {
 /* Página de Portfólio */
 .page-content {
   position: relative; /* Para permitir o posicionamento absoluto do botão */
-  padding: 20px; /* Adicione um espaçamento se necessário */
+  padding: 0px; /* Adicione um espaçamento se necessário */
   text-align: center; /* Centraliza todos os textos */
   min-height: 100vh; /* Garante que a página ocupe pelo menos a altura total da tela */
   display: flex; /* Usar flexbox para centralizar */
   flex-direction: column; /* Alinha os itens em coluna */
   justify-content: center; /* Centraliza verticalmente */
 }
+
 
 
 .back-button {

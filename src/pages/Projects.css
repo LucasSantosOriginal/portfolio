@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+.projects-button a {
+    color: white;
+    font-size: 100%;
+    text-shadow: 1px 0px 0px black;
+    font-family: "Oxanium", serif;
+    box-shadow: 1px 0px 0px white;
+    text-decoration: none; 
+    background-color: rgb(23, 102, 126);
+    margin: 50px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: outset rgba(0, 0, 0, 0.89);
+}
+
+.projects-button a:hover {
+    background-color: rgb(148, 11, 11);
+}
