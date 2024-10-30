@@ -6,7 +6,7 @@ English
 Here you will get to know more about me and my experiences! 🇺🇸
 
 ---
-
+Portuguese
 # Meu Portfólio  [AQUI](https://azevedorar.github.io/portfolio/)
 
 👋 Olá! Esse é o meu portfólio profissional feito com **React.js**, **Vite**, **TypeScript** e **CSS**.  
