@@ -12,16 +12,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 .app-container {
   height: 100vh; /* Altura total da viewport */
   background: linear-gradient(135deg, #ff7e5f, #feb47b);
@@ -36,13 +26,13 @@
 
 /* Para o conteúdo das páginas de portfólio */
 .page-content {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   height: 100%;
   position: relative; /* Para o botão de voltar */
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 

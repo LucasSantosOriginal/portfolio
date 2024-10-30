@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; /* Verifique se a fonte está sendo aplicada */
+    background-color: #4EA1AA;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 2px 0px black;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;  
+}

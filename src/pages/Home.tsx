@@ -10,11 +10,11 @@ const Home: React.FC = () => {
       <h1>LUCAS SANTOS </h1>
 
       <div className="button-container">
-        <Link to="/portfolio/musical-portfolio" className="button">
-          Music Producer
+        <Link to="/portfolio/Bio" className="button">
+          Bio
         </Link>
         <Link to="/portfolio/programming-portfolio" className="button">
-          Developer & Cyber
+          Experience
         </Link>
         <a href="./CV_LUCAS_SANTOS.pdf" download className="button">
           <FaDownload /> Portuguese CV
@@ -25,8 +25,7 @@ const Home: React.FC = () => {
       </div>
 
       <p>
-        fiz esse site para vocês não terem mais desculpas <br />
-        dizendo que nao tenho experiência!
+        Welcome to my WORLD! <br />
       </p>
 
       {/* Rodapé */}

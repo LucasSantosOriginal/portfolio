@@ -18,7 +18,7 @@ const ProgrammingPortfolio: React.FC = () => {
         <FaArrowLeft /> {/* Seta de voltar */}
       </Link>
       <h1>
-        Developer & Cyber <br />
+        EXPERIENCE & SKILLS <br />
       </h1>
 
       {/* Navbar */}
@@ -45,11 +45,11 @@ const ProgrammingPortfolio: React.FC = () => {
         {experienciasOpen && (
           <div className="dropdown-content">
             <h3> Vivo (Telefonica Brasil)</h3>
-            <p>Information Security Analyst March 2022 - May 2024</p>
+            <p> Junior CyberSecurity Analyst March 2022 - May 2024</p>
             <h2> Telefonica Educação Digital</h2>
-            <p>IT Help Desk Intern February 2021 - February 2022</p>
+            <p> Trainee IT Help Desk February 2021 - February 2022</p>
             <h2> Phooto Brasil</h2>
-            <p>IT Intern July 2018 - December 2018</p>
+            <p>Intern IT Help Desk July 2018 - December 2018</p>
           </div>
         )}
       </div>
