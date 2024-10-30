@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Bio.css"; // Importe o CSS para estilização
 import { FaArrowLeft } from "react-icons/fa";
 
-const MusicalPortfolio: React.FC = () => {
+const Bio: React.FC = () => {
   return (
     <div className="page-content">
       <Link to="/portfolio/" className="back-button">
@@ -110,4 +110,4 @@ const MusicalPortfolio: React.FC = () => {
   );
 };
 
-export default MusicalPortfolio;
+export default Bio;

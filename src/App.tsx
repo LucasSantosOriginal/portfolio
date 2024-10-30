@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import MusicalPortfolio from "./pages/MusicalPortfolio";
 import ProgrammingPortfolio from "./pages/ProgrammingPortfolio";
-import Bio from "./pages/bio";
+import Bio from "./pages/Bio";
 
 const App: React.FC = () => {
   return (
