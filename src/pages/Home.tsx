@@ -39,7 +39,7 @@ const Home: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/LucasSantosOriginal
+            My GitHub
           </a>
         </h2>
       </footer>
