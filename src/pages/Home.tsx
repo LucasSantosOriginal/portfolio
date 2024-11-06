@@ -35,11 +35,11 @@ const Home: React.FC = () => {
       <footer className="footer">
         <h2>
           <a
-            href="https://github.com/azevedorar"
+            href="https://github.com/LucasSantosOriginal"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/azevedorar
+            github.com/LucasSantosOriginal
           </a>
         </h2>
       </footer>
